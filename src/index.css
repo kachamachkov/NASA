@@ -153,21 +153,22 @@ footer button:hover {
 }
 
 @keyframes spin {
-    from{
+    from {
         transform: rotate(0deg);
     }
-    to{
+
+    to {
         transform: rotate(360deg);
     }
-    
+
 }
 
-.descriptionTitle{
+.descriptionTitle {
     font-size: 1.1rem;
     font-weight: 200;
 }
 
-.descriptionContainer{
+.descriptionContainer {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
