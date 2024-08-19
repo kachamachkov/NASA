@@ -1,9 +1,11 @@
-export default function Main() {
+export default function Main({
+    data
+}) {
 
 
     return (
         <div className="imgContainer">
-            <img src="mars.png" alt="picture of Mars" className="bgImage"/>
+            <img src={data.hdurl} alt={data.title || 'bg-image'} className="bgImage"/>
         </div>
     );
 }
