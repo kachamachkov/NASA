@@ -45,6 +45,36 @@ footer {
     align-items: center;
     gap: 1rem;
     justify-content: space-between;
+    padding: 1rem;
+}
+
+footer h2 {
+    font-size: 1.4rem;
+    font-weight: 200;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+footer button {
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1rem;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+footer button i {
+    font-size: 1.3rem;
+}
+
+footer button:hover {
+    opacity: 0.5;
 }
 
 .bgGradient {

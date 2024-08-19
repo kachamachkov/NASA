@@ -1,4 +1,6 @@
-export default function Footer() {
+export default function Footer({
+    handleToggleModal
+}) {
     return (
         <footer>
             <div className="bgGradient"></div>
@@ -8,7 +10,7 @@ export default function Footer() {
                 </h2>
             </div>
 
-            <button>
+            <button onClick={handleToggleModal}>
                 <i class="fa-solid fa-circle-info"></i>
             </button>
         </footer>
