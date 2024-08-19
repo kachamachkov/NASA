@@ -6,8 +6,8 @@ function App() {
 
     return (
         <>
-            <SideBar />
             <Main />
+            <SideBar />
             <Footer />
         </>
     );
