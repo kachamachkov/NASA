@@ -1,13 +1,15 @@
 export default function Footer({
-    handleToggleModal
+    handleToggleModal,
+    data
 }) {
     return (
         <footer>
             <div className="bgGradient"></div>
             <div >
                 <h2>
-                    NASA - APOD PROJECT
+                    {data?.title}
                 </h2>
+                <h2>NASA - APOD PROJECT</h2>
             </div>
 
             <button onClick={handleToggleModal}>
