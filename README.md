@@ -1,8 +1,14 @@
-# React + Vite
+## NASA - Astronomy Picture of the Day :rocket:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### The aim of this personal project was to consume public API & render something dynamic and fun with it, by using React. 
 
-Currently, two official plugins are available:
+#### Features
+* Load dynamic picture for the given day based on NASA's API
+* Renders description for it in a modal
+* Utilizes caching
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### Deployment & Example
+kachamachkov-nasa-apod.netlify.app/
+
+ ![alt text](./public/example.jpeg)
+
