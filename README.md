@@ -8,7 +8,7 @@
 * Utilizes caching
 
 #### Deployment & Example
-kachamachkov-nasa-apod.netlify.app/
+https://kachamachkov-nasa-apod.netlify.app/
 
  ![alt text](./public/example.jpeg)
 
